@@ -1,6 +1,6 @@
 # The Shakes
 
-a game by Allen Downey
+A Bayesian dice game by Allen Downey
 
 Copyright 2020, License: [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -119,7 +119,7 @@ When the efficacy of the treatments is unknown, this strategy is optimal in the 
 
 For more information about the strategy, which is call Thompson sampling, see [this Wikipedia page](https://en.wikipedia.org/wiki/Thompson_sampling).
 
-For more information about how the rules of this game implement the strategy, see [this Jupyter notebook]().
+For more information about how the rules of this game implement the strategy, see [this Jupyter notebook](https://colab.research.google.com/github/AllenDowney/TheShakes/blob/main/shakes.ipynb).
 
 
 ## Credit
