@@ -95,6 +95,8 @@ Suppose the results are 1, 2, 2, and 4.  You would remove the 1 and one of the 2
 
 Once everyone has rolled, the player with the highest result gets to treat the patient.
 
+In case of a tie, the maesters with the strongest argument roll again as before, repeating until the tie is broken.
+
 
 ## Treatment
 
