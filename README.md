@@ -4,6 +4,8 @@ A Bayesian dice game for 2-6 players.
 
 by Allen Downey
 
+If you try this game, [please use this survey to tell me what you think](https://forms.gle/NPNSKJ5uv9EvZFRQ7).
+
 
 ## Objective
 
@@ -18,8 +20,8 @@ The object of the game is to choose the most effective treatments and save as ma
 
 * About 10 six-sided dice, 
 
-* A score sheet ([download here](https://docs.google.com/document/d/1etO0GQx5NPhdEl3UKsbu50JPhfDieaOHCbmyEH95KA0/copy
-)).  You can print a copy or edit it on screen.
+* A score sheet, [which you can download here](https://docs.google.com/document/d/1etO0GQx5NPhdEl3UKsbu50JPhfDieaOHCbmyEH95KA0/copy
+).  You can print a copy or edit it on screen.
 
 
 ## Setup
@@ -76,10 +78,13 @@ The average efficacy is 2, so if we choose treatments at random, we expect to sa
 
 ## The Argument  
 
-Each time a patient arrives, the maesters argue about what treatment to use.  
-Maesters are perfectly dogmatic, so each of them always argues in favor of their preferred treatment, regardless of evidence or reason.
+Each time a patient arrives, the maesters argue about what treatment to use.
+
+Maesters are perfectly dogmatic, so each argues in favor of their preferred treatment, regardless of evidence or reason.
 
 Each player rolls dice to determine the strength of their argument; the player with the strongest argument gets to treat the patient.
+
+All players can argue at once or one at a time, in any order.
 
 When it is your turn to argue:
 
@@ -87,13 +92,13 @@ When it is your turn to argue:
 
 2. Remove one die for every patient you have saved, starting with the lowest die and working up.
 
-3. Keep the lowest remaining die.
+3. Keep the lowest remaining die.  The value of this die is the strength of your argument. 
 
 For example, suppose you have treated three patients and two survived.  You roll 4 dice.
 
-If the results are 1, 2, 2, and 4, you remove the 1 and one of the 2s, and keep the other 2.
+If the results are 1, 2, 2, and 4, you remove the 1 and one of the 2s; the reminaing 2 is the strength of your argument.
 
-Once everyone has rolled, the player with the highest result gets to treat the patient.
+Once everyone has argued, the maester with the strongest argument treats the patient.
 
 In case of a tie, the maesters with the strongest argument roll again as before, repeating until the tie is broken.
 
@@ -118,7 +123,7 @@ With 4 or more players, continue until 18 patients have been treated.  The team 
 
 ## Competitive Variation
 
-It turns out that none of the treatments are effective, but 2 out of 6 patients recover, regardless of treatment.
+In this variation, none of the treatments are effective, but 2 out of 6 patients recover regardless of treatment.
 
 Set all efficacies to 2 and play as in the cooperative variation.  
 
@@ -130,14 +135,14 @@ The first player to save 3 patients wins.
 This game demonstrates Bayesian medical testing.  
 
 When a patient arrives, they are assigned a treatment at random, but not with equal probability.
+Rather, each treatment is chosen with the probability that it is most effective.
+These probabilities are estimated based on past performance: the number of patients treated and the number that recovered.
 
-Rather, each treatment is chosen with the probability, based on past performance, that it is most effective.  
-
-When the efficacy of the treatments is unknown, this strategy is optimal in the sense that it maximizes the number of patients saved.
+When the actual efficacy of the treatments is unknown, this strategy is optimal in the sense that it maximizes the number of patients saved.
 
 For more information about the strategy, which is call Thompson sampling, see [this Wikipedia page](https://en.wikipedia.org/wiki/Thompson_sampling).
 
-For more information about how the rules of this game implement the strategy, see [this Jupyter notebook](https://colab.research.google.com/github/AllenDowney/TheShakes/blob/main/shakes.ipynb).
+For an explanation of how the game implements the strategy, see [this Jupyter notebook](https://colab.research.google.com/github/AllenDowney/TheShakes/blob/main/shakes.ipynb).
 
 
 ## Credit
