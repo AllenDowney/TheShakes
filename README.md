@@ -82,9 +82,9 @@ Each time a patient arrives, the maesters argue about what treatment to use.
 
 Maesters are perfectly dogmatic, so each argues in favor of their preferred treatment, regardless of evidence or reason.
 
-Each player rolls dice to determine the strength of their argument; the player with the strongest argument gets to treat the patient.
+Players argue by rolling dice.  The outcome determines the strength of their argument.
 
-All players can argue at once or one at a time, in any order.
+Players can argue all at once or one at a time, in any order.
 
 When it is your turn to argue:
 
@@ -107,7 +107,7 @@ In case of a tie, the maesters with the strongest argument roll again as before,
 
 If you won the argument, roll one die.  
 
-If it is less than or equal to the efficacy of your treatment, the patient recovers.  
+If the outcome is less than or equal to the efficacy of your treatment, the patient recovers.  
 
 Add 1 to the number of patients you have treated, and if the patient recovered, add 1 to the number of patients you have saved.
 
