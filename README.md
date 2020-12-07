@@ -124,7 +124,7 @@ It turns out that none of the treatments are effective, but 2 out of 6 patients 
 
 Set all efficacies to 2 and play as in the cooperative variation.  
 
-The first player to save 4 patients wins.
+The first player to save 3 patients wins.
 
 
 ## Background
