@@ -4,8 +4,6 @@ A Bayesian dice game for 2-6 players.
 
 by Allen Downey
 
-Copyright 2020, License: [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
 
 ## Objective
 
@@ -145,4 +143,7 @@ For more information about how the rules of this game implement the strategy, se
 ## Credit
 
 The premise of this game is inspired by "The Shivers", a disease in George R. R. Martin's *Blood and Fire* (see [here](https://awoiaf.westeros.org/index.php/Shivers)).
+
+Copyright 2020, License: [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 
