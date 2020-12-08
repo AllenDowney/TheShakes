@@ -123,7 +123,7 @@ With 4 or more players, continue until 18 patients have been treated.  The team 
 
 ## Competitive Variation
 
-In this variation, none of the treatments are effective, but 2 out of 6 patients recover regardless of treatment.
+In this variation, none of the treatments are effective, but 3 out of 6 patients recover regardless of treatment.
 
 Set all efficacies to 2 and play as in the cooperative variation.  
 
