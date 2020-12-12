@@ -18,10 +18,11 @@ The object of the game is to choose the most effective treatments and save as ma
 
 ## Equipment 
 
-* About 10 six-sided dice, 
+* Lots of six-sided dice, 
 
-* A score sheet, [which you can download here](https://docs.google.com/document/d/1etO0GQx5NPhdEl3UKsbu50JPhfDieaOHCbmyEH95KA0/copy
-).  You can print a copy or edit it on screen.
+* A deck of cards,
+
+* About 10 tokens of some kind, to keep score.
 
 
 ## Setup
@@ -50,7 +51,13 @@ Each player chooses one of the following treatments:
 
 No two players can choose the same treatment, but the names of the treatments don't actually affect the outcome, so don't argue about it… yet.
 
-On the score sheet, write the name of each player and the treatment each one chose.
+Give one die to each player.  Also:
+
+* If you have 2-3 players, put 12 dice on the table.
+
+* If you have 4 or more players, put 18 dice on the table.
+
+These dice represent the patients you will treat.
 
 
 ## Efficacy
@@ -69,16 +76,17 @@ The efficacies of the treatments depend on the number of players:
 
 * Two players: 3, 1
 
-To determine which treatment has which of these efficacies, each player rolls two dice.  The player with the highest total gets the highest efficacy; the player with the next highest total gets the next highest, and so on.  If two or more players are tied, they roll again to break the tie.
+To determine which treatment has which efficacy, select cards from the deck to denote the efficacies.  For example, if there are four players, select a 4, a 2, and two aces.
 
-For each treatment, write its efficacy on the score sheet.
+Shuffle the cards and deal one to each player.  Look at your own card and remember the efficacy of your treatment, but don't tell the other players.
 
 The average efficacy is 2, so if we choose treatments at random, we expect to save 2 out of 6 patients, on average.
 
 
-## The Argument  
 
-Each time a patient arrives, the maesters argue about what treatment to use.
+## The Argument
+
+During each round of play, a new patient arrives and the maesters argue about what treatment to use.
 
 Maesters are perfectly dogmatic, so each argues in favor of their preferred treatment, regardless of evidence or reason.
 
@@ -90,7 +98,7 @@ When it is your turn to argue:
 
 1. Roll one die plus one additional die for every patient you have treated.
 
-2. Remove one die for every patient you have saved, starting with the lowest die and working up.
+2. Put aside one die for every patient you have saved, starting with the lowest die and working up.
 
 3. Keep the lowest remaining die.  The value of this die is the strength of your argument. 
 
@@ -105,13 +113,12 @@ In case of a tie, the maesters with the strongest argument roll again as before,
 
 ## Treatment
 
-If you won the argument, roll one die.  
+If you won the argument, take a die from the table and roll it.  
 
 If the outcome is less than or equal to the efficacy of your treatment, the patient recovers.  
+In that case, take one of the tokens that represents a saved patient.
 
-Add 1 to the number of patients you have treated, and if the patient recovered, add 1 to the number of patients you have saved.
-
-You might find it convenient to use tally marks.
+Keep the die you just rolled so that you always have one die for each patient you have treated, plus the die you started with.
 
 
 ## Winning
@@ -125,7 +132,7 @@ With 4 or more players, continue until 18 patients have been treated.  The team 
 
 In this variation, none of the treatments are effective, but 3 out of 6 patients recover regardless of treatment.
 
-Set all efficacies to 2 and play as in the cooperative variation.  
+Set all efficacies to 3 and play as in the cooperative variation.  
 
 The first player to save 3 patients wins.
 
