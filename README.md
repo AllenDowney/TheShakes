@@ -98,11 +98,11 @@ When it is your turn to argue:
 
 1. Roll one die plus one additional die for every patient you have treated.
 
-2. Put aside one die for every patient you have saved, starting with the lowest die and working up.
+2. Remove one die for every patient you have saved, starting with the lowest die and working up.
 
 3. Keep the lowest remaining die.  The value of this die is the strength of your argument. 
 
-For example, suppose you have treated three patients and two survived.  You roll 4 dice.
+For example, if you have treated three patients and two survived, you roll 4 dice and remove the lowest 2.
 
 If the results are 1, 2, 2, and 4, you remove the 1 and one of the 2s; the reminaing 2 is the strength of your argument.
 
@@ -130,7 +130,7 @@ With 4 or more players, continue until 18 patients have been treated.  The team 
 
 ## Competitive Variation
 
-In this variation, none of the treatments are effective, but 3 out of 6 patients recover regardless of treatment.
+In this variation, none of the treatments are effective, but 3 out of 6 patients recover anyway.
 
 Set all efficacies to 3 and play as in the cooperative variation.  
 
@@ -145,7 +145,8 @@ When a patient arrives, they are assigned a treatment at random, but not with eq
 Rather, each treatment is chosen with the probability that it is most effective.
 These probabilities are estimated based on past performance: the number of patients treated and the number that recovered.
 
-When the actual efficacy of the treatments is unknown, this strategy is optimal in the sense that it maximizes the number of patients saved.
+When the actual efficacy of the treatments is unknown, this strategy is optimal in the sense that it 
+maximizes the number of patients saved.
 
 For more information about the strategy, which is call Thompson sampling, see [this Wikipedia page](https://en.wikipedia.org/wiki/Thompson_sampling).
 
@@ -154,7 +155,7 @@ For an explanation of how the game implements the strategy, see [this Jupyter no
 
 ## Credit
 
-The premise of this game is inspired by "The Shivers", a disease in George R. R. Martin's *Blood and Fire* (see [here](https://awoiaf.westeros.org/index.php/Shivers)).
+The premise of this game is inspired by "the shivers", a disease in George R. R. Martin's *Blood and Fire* (see [here](https://awoiaf.westeros.org/index.php/Shivers)).
 
 Copyright 2020, License: [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
