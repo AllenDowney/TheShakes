@@ -106,7 +106,7 @@ When it is your turn to argue:
 
 For example, if you have treated three patients and two survived, you roll 4 dice and remove the lowest 2.
 
-If the results are 1, 2, 2, and 4, you remove the 1 and one of the 2s; the reminaing 2 is the strength of your argument.
+If the results are 1, 2, 2, and 4, you remove the 1 and one of the 2s; the remaining 2 is the strength of your argument.
 
 Once everyone has argued, the maester with the strongest argument treats the patient.
 
