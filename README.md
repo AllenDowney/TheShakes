@@ -59,6 +59,8 @@ Give one die to each player.  Also:
 
 These dice represent the patients you will treat.
 
+Also give one die to each player.
+
 
 ## Efficacy
 
